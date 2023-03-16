@@ -11,7 +11,7 @@ body {
    min-height:100vh;
    background-color: #fafdfe;
    background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%230a9cae' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
-   color:black;
+   color:#212427;
    font-family: 'Poppins', sans-serif;
    font-weight: 600;
    text-align:center;
@@ -24,11 +24,11 @@ body {
 
 .quote-container {
    width:auto;
-   max-width:900px;
+   max-width:1000px;
    padding:20px 30px;
    border-radius: 10px;
    background-color:rgba(255, 255, 255, 0.4);
-   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 10px 10px 10px rgba(173, 216, 230, 0.2);
 }
 
 .quote-text {
@@ -41,6 +41,12 @@ body {
 
 .fa-quote-left {
    font-size: 5rem;
+   color: lightblue;
+}
+
+.fa-quote-right {
+   font-size: 5rem;
+   color: lightblue;
 }
 
 .quote-author {
@@ -48,6 +54,13 @@ body {
    font-size: 2rem;
    font-weight: 400;
    font-style: italic;
+}
+
+/* Icon Container */
+
+.icon-container{
+   display:flex;
+   justify-content: space-between;
 }
 
 /* Button Container Styles */
@@ -65,10 +78,10 @@ button {
    border:none;
    border-radius: 10px;
    color: #fff;
-   background-color: #333;
+   background-color: lightblue;
    outline:none;
    padding:0.5rem 1.8rem;
-   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+   box-shadow: 0 0.3rem rgba(220, 220, 220, 0.65);
 }
 
 button:hover {

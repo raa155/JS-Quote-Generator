@@ -8,18 +8,21 @@
    <title>JS Quote Generator</title>
 </head>
 <body>
-   <div class="quote-container" id="quote-container">
+   <div class="quote-container" id="quote-container" role="presentation">
+      <div class="icon-container" role="presentation">
+         <span><i class="fas fa-quote-left"></i></span>
+         <span><i class="fas fa-quote-right"></i></span>
+      </div>
       <!-- Quote -->
-      <div class="quote-text">
-         <i class="fas fa-quote-left"></i>
+      <div class="quote-text" role="presentation">
          <span id="quote"></span>
       </div>
       <!-- Author -->
-      <div class="quote-author">
+      <div class="quote-author" role="presentation">
          <span id="author"></span>
       </div>
       <!-- Buttons -->
-      <div class="button-container">
+      <div class="button-container" role="presentation">
          <button class="twitter-button" id="twitter" title="Tweet This!">
             <i class="fab fa-twitter"></i>
          </button>
@@ -27,7 +30,7 @@
       </div>
    </div>
    <!-- Loader -->
-   <div class="loader" id="loader"></div>
+   <div class="loader" id="loader" role="presentation"></div>
    <!-- Scripts -->
    <script src="https://kit.fontawesome.com/1b7fca33f8.js" crossorigin="anonymous"></script>
    <script src="scripts.js"></script>
